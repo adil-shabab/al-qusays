@@ -20,7 +20,14 @@ body {
   background-color: var(--vtc-bg-white8);
   overflow-x: hidden;
 }
-
+.lottie_whatsapp{
+  width: 90px;
+  position: fixed;
+  bottom: 30px;
+  left: 25px;
+  z-index: 111;
+  height: 90px;
+}
 @media screen and (max-width: 769px) {
   body.body, html {
     overflow-x: hidden !important;
