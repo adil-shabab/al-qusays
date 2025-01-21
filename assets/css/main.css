@@ -1392,7 +1392,7 @@ a:focus {
   --vtc-text-title-8: #0A1613;
   --vtc-text-sub-title-1: #10343B;
   --vtc-text-sub-title-2: #024912;
-  --vtc-text-sub-title-3: #f79610;
+  --vtc-text-sub-title-3: #004aad;
   --vtc-text-sub-title-4: ##0e7ec7;
   --vtc-text-pera-1: #585858;
   --vtc-text-pera-2: #37385C;
@@ -1403,14 +1403,14 @@ a:focus {
   --vtc-text-pera-7: #414141;
   --vtc-text-pera-8: #414141;
   --vtc-text-white: #fff;
-  --vtc-bg-main1: #f79610;
+  --vtc-bg-main1: #004aad;
   --vtc-bg-main2: #10343B;
   --vtc-bg-main3: #10343B;
-  --vtc-bg-main4: #f79610;
+  --vtc-bg-main4: #004aad;
   --vtc-bg-main5: ##0e7ec7;
   --vtc-bg-main6: #86B03C;
   --vtc-bg-main7: #024912;
-  --vtc-bg-main8: #f79610;
+  --vtc-bg-main8: #004aad;
   --vtc-bg-main9: #000052;
   --vtc-bg-main10: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
   --vtc-bg-main11: linear-gradient(90deg, #726EFC 0%, #2E0797 100%);
@@ -2046,7 +2046,7 @@ a:focus {
   display: inline-block;
   padding: 18px 24px;
   background-color: var(--vtc-bg-main1);
-  color: var(--vtc-text-title-2);
+  color: white;
   font-size: var(--f-fs-font-18);
   font-style: normal;
   font-weight: var(--f-fw-bold);
@@ -2058,7 +2058,7 @@ a:focus {
 .theme-btn1 span.arrow-all {
   display: inline-block;
   background-color: var(--vtc-bg-main1);
-  color: var(--vtc-text-title-2);
+  color: white;
   font-size: var(--f-fs-font-18);
   font-style: normal;
   font-weight: var(--f-fw-bold);
@@ -2388,7 +2388,7 @@ a:focus {
   right: -2px;
   height: 100%;
   width: 103%;
-  background-color: #f15b3d;
+  background-color: #06162b;
   z-index: -1;
   transform: rotateY(75deg);
   transition: all 0.4s;
@@ -7553,8 +7553,7 @@ a:focus {
   visibility: visible;
 }
 .vl-offcanvas .vl-offcanvas-logo {
-  height: 50px;
-  width: 122px;
+  width: 70%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -9200,14 +9199,17 @@ a:focus {
   background-color: var(--vtc-bg-main1);
   height: 20px;
   width: 20px;
-  line-height: 20px;
+  color:  white;
+  line-height: 20p x;
   text-align: center;
   font-size: var(--vtc-text-title-1);
   border-radius: 50%;
   font-size: 12px;
   margin-right: 8px;
 }
-
+.logo__nav img{
+  width: 230px;
+}
 .about2-images-all {
   height: 664px;
   position: relative;
@@ -13818,3 +13820,38 @@ a:focus {
   filter: none;
 }
 
+
+@media screen and (max-width: 500px) {
+  .hero1 .hero1-sliders .hero1-single-slider .heading h1{
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .hero1 .hero1-sliders .hero1-single-slider.slick-current.slick-active .heading span.sub-title{
+    margin-top: 25px;
+  }
+  .hero1 .hero1-sliders .hero1-single-slider .heading h1{
+    margin-bottom: 10px !important;
+  }
+  ._relative{
+    margin-top: 60px;
+  }
+  .images-all .shape1{
+    display: none;
+  }
+  .about1   ._relative{
+    margin-top: 20px;
+  }
+  .about-page-advicx .images-all .shape{
+    display: none;
+  }
+  .about-page-advicx .images-all{
+    text-align: start;
+    margin-top: 20px;
+  }
+  .about-page-advicx .images-all .image2{
+    display: none;
+  }
+  .inner-hero .hero1-single-slider .inner-heading{
+    padding-top: 240px;
+  }
+}
